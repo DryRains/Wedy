@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Recommend_Music"
+    android:background="@drawable/recommendmusicbgr">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="맑은 날에 어울리는 음악을 추천해드릴게요"
+        android:textSize="17dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nanumsquare"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="381dp"
+            android:layout_height="563dp"
+            android:layout_gravity="center_horizontal"
+            >
+
+        </WebView>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="검색할 노래를 입력하세요"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumpen"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="2dp"/>
+
+        <ImageButton
+            android:id="@+id/imgbtnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="240dp"
+            android:layout_marginBottom="11dp"
+            android:background="#00000000"
+            app:srcCompat="@drawable/btnyoutube" />
+
+        <ImageView
+            android:id="@+id/musiccharacter"
+            android:layout_width="140dp"
+            android:layout_height="110dp"
+            android:layout_gravity="bottom"
+            android:paddingTop="30dp"
+            android:layout_marginLeft="280dp"
+            android:scaleType="fitXY"
+            />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
