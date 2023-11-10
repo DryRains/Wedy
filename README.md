@@ -5,11 +5,9 @@ It is an application that informs the current temperature, weather information, 
 ![Untitled](https://github.com/DryRains/Wedy/assets/96376539/c63cf4a9-a966-4c90-9959-9ef229b4d625)
 <br>The main screen changes depending on the time and today's fortune changes every day
 
-![캡처2.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32d5d862-53df-4988-9564-e28353ec08d1/캡처2.png)
+![%EC%BA%A1%EC%B2%982 PNG](https://github.com/DryRains/Wedy/assets/96376539/eadb6302-7f86-4442-aef0-277c6dfe71dd)
+<br>Recommendation of clothes according to the weather (also can purchasing them)
 
-날씨와 기온에 따른 코디 추천 & 쇼핑
-
-![캡처3.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb3b6409-4fec-4b30-8192-327790f1695f/캡처3.png)
-
-날씨에 따른 음악 추천
+![%EC%BA%A1%EC%B2%983 PNG](https://github.com/DryRains/Wedy/assets/96376539/13c6f657-453e-48b7-af44-f126309bea58)
+<br>Recommendation of music that goes well with the weather
 
